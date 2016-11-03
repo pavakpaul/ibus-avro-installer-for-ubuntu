@@ -35,7 +35,7 @@ aclocal && autoconf && automake --add-missing
 #installing
 echo "Installing ibus-avro"
 sudo make install
-zenity --info --text "Avro should be installed on your system.\nPlease add avro in your Text Entry settings."
+zenity --info --text "Avro should be installed on your system.\nPlease reboot system or re-login and add avro in your Text Entry settings."
 echo "Avro should be installed on your system. Please reboot system or re-login and add avro in your Text Entry settings."
 echo "Bye..."
 sleep 5s
