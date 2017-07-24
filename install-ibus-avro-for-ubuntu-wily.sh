@@ -9,6 +9,9 @@
 #==================================================================
 #
 zenity --info --text "You must run this script from a terminal program!"
+#updating apt cache
+echo "Updating apt cache"
+sudo apt-get update
 #Installing dependencies... 
 #Ignoring package gir1.2-gjsdbus-1.0 as not found in wily 
 echo "Installing dependencies"
